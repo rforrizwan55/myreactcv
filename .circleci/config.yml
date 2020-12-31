@@ -6,6 +6,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - setup_remote_docker
       - run: npm run-script build
       - run: docker build . -t master.justeatup.xyz:5000/myprojects/mycv
       - run: docker push master.justeatup.xyz:5000/myprojects/mycv
