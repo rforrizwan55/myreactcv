@@ -7,6 +7,7 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
+      - run: npm install
       - run: npm run-script build
       - run: docker build . -t master.justeatup.xyz:5000/myprojects/mycv
       - run: docker push master.justeatup.xyz:5000/myprojects/mycv
