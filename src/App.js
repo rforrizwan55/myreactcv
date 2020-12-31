@@ -25,7 +25,7 @@ export default class App extends Component {
           content: 'When I was child, I always want to be a developer.',
           icon: 'usertie'
         }]}
-        branding={true} // or false to hide it.
+        branding={false} // or false to hide it.
       />
     )
   }
