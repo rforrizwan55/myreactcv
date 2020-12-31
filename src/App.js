@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <CV
         personalData={{
-          name: 'John Doe',
+          name: 'Raqeeb Abdul',
           title: 'Senior Software Developer',
           image: 'https://bulma.io/images/placeholders/128x128.png',
           contacts: [
