@@ -8,6 +8,18 @@ const MYCV = styled.div`
 }
 `;
 
+const DIV = styled.div`
+display: flex;
+justify-content: center;
+padding: 1rem;
+a {
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+`;
+
 export default class App extends Component {
   render () {
     return (
@@ -33,6 +45,11 @@ export default class App extends Component {
         }]}
         branding={false} // or false to hide it.
       />
+      <DIV id="hosted">
+        <h2>
+          Copyright © Raqeeb Abdul. 2021. <a href="https://kubernetes.io/">Hosted on Kubernetes</a>
+        </h2>
+      </DIV>
       </MYCV>
     )
   }
