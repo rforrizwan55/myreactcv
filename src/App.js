@@ -38,9 +38,16 @@ export default class App extends Component {
             { type: 'github', value: 'github.com/rforrizwan55' }
         ]}}
         sections= {[{
-          type: 'text',
-          title: 'Career Profile',
-          content: 'When I was child, I always want to be a developer.',
+          type: 'common-list',
+          title: 'About me',
+          items: [
+            {
+              authority: 'Problem solving – As a Software Engineer, always been passionate about solving business problems with technology'
+            },
+            {
+              authority: 'Empathy – Programming is always about humans helping other humans by creating the most comforting experience'
+            }
+          ],
           icon: 'usertie'
         }]}
         branding={false} // or false to hide it.
