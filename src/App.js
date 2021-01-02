@@ -102,7 +102,46 @@ export default class App extends Component {
             }
           ],
           icon: 'rocket'
-        },{
+        },
+        {
+          type: 'experiences-list',
+          title: 'Experiences',
+          description: 'Optional',
+          icon: 'archive',
+          items: [
+            {
+              title: 'Sr Engineer',
+              company: 'Target',
+              description: 'Working in infra team, creating MDM for Target',
+              companyWebSite: 'https://target.com',
+              companyMeta: '',
+              datesBetween: '2018.12 - Present',
+              descriptionTags: ['Android', 'Micronaut', 'Kafka', 'Kubernetes']
+            },
+            {
+              title: 'Software Engineer',
+              company: 'Be The Match',
+              description: 'Was part of team to update current system that performs a patient match against donors into a Hadoop distributed system for faster processing of search and match results',
+              companyWebSite: 'https://bethematch.org',
+              datesBetween: '2017.10 - 2018.12'
+            },
+            {
+              title: 'Software Engineer',
+              company: 'Xpressdocs',
+              description: 'Created iOS/Android application for xpressdocs',
+              companyWebSite: 'http://xpressdocs.com',
+              datesBetween: '2017.02 - 2017.10'
+            },
+            {
+              title: 'Research Assitant',
+              company: 'St Cloud State',
+              description: 'Published 5 papers on Android and Cloud',
+              companyWebSite: 'http://xpressdocs.com',
+              datesBetween: '2015.08 - 2016.12'
+            }
+          ]
+        },
+        {
           type: 'common-list',
           title: 'Education',
           icon: 'graduation',
