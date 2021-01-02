@@ -116,28 +116,39 @@ export default class App extends Component {
               companyWebSite: 'https://target.com',
               companyMeta: '',
               datesBetween: '2018.12 - Present',
-              descriptionTags: ['Android', 'Micronaut', 'Kafka', 'Kubernetes']
+              descriptionTags: ['Android', 'Micronaut', 'Kafka', 'Kubernetes', 'MongoDB', 'Postgres']
             },
             {
               title: 'Software Engineer',
               company: 'Be The Match',
               description: 'Was part of team to update current system that performs a patient match against donors into a Hadoop distributed system for faster processing of search and match results',
               companyWebSite: 'https://bethematch.org',
-              datesBetween: '2017.10 - 2018.12'
+              datesBetween: '2017.10 - 2018.12',
+              descriptionTags: ['Java', 'Spring Boot', 'Hadoop', 'Spark', 'Automation Testing']
             },
             {
               title: 'Software Engineer',
               company: 'Xpressdocs',
               description: 'Created iOS/Android application for xpressdocs',
               companyWebSite: 'http://xpressdocs.com',
-              datesBetween: '2017.02 - 2017.10'
+              datesBetween: '2017.02 - 2017.10',
+              descriptionTags: ['Android', 'iOS', 'Java', 'Spring Boot', 'PHP', 'MySQL', 'Python']
             },
             {
               title: 'Research Assitant',
               company: 'St Cloud State',
               description: 'Published 5 papers on Android and Cloud',
               companyWebSite: 'http://xpressdocs.com',
-              datesBetween: '2015.08 - 2016.12'
+              datesBetween: '2015.08 - 2016.12',
+              descriptionTags: ['Android', 'Java', 'Spring Boot', 'MySQL']
+            },
+            {
+              title: 'Software Engineer',
+              company: 'Winwire Technologies',
+              description: 'Created mobile applications for clients',
+              companyWebSite: 'http://winwire.com',
+              datesBetween: '2013.06 - 2015.07',
+              descriptionTags: ['Android', 'Xamarin', 'Java', 'PHP', 'MySQL', 'Python']
             }
           ]
         },
