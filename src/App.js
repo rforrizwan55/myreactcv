@@ -106,7 +106,6 @@ export default class App extends Component {
         {
           type: 'experiences-list',
           title: 'Experiences',
-          description: 'Optional',
           icon: 'archive',
           items: [
             {
