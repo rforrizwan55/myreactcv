@@ -130,7 +130,7 @@ export default class App extends Component {
               title: 'Software Engineer',
               company: 'Xpressdocs',
               description: 'Created iOS/Android application for xpressdocs',
-              companyWebSite: 'http://xpressdocs.com',
+              companyWebSite: 'https://xpressdocs.com',
               datesBetween: '2017.02 - 2017.10',
               descriptionTags: ['Android', 'iOS', 'Java', 'Spring Boot', 'PHP', 'MySQL', 'Python']
             },
@@ -138,7 +138,7 @@ export default class App extends Component {
               title: 'Research Assitant',
               company: 'St Cloud State',
               description: 'Published 5 papers on Android and Cloud',
-              companyWebSite: 'http://xpressdocs.com',
+              companyWebSite: 'https://stcloudstate.edu',
               datesBetween: '2015.08 - 2016.12',
               descriptionTags: ['Android', 'Java', 'Spring Boot', 'MySQL']
             },
@@ -146,7 +146,7 @@ export default class App extends Component {
               title: 'Software Engineer',
               company: 'Winwire Technologies',
               description: 'Created mobile applications for clients',
-              companyWebSite: 'http://winwire.com',
+              companyWebSite: 'https://winwire.com',
               datesBetween: '2013.06 - 2015.07',
               descriptionTags: ['Android', 'Xamarin', 'Java', 'PHP', 'MySQL', 'Python']
             }
