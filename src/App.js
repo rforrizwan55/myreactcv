@@ -101,7 +101,7 @@ export default class App extends Component {
               authority: 'Kubernetes, Docker, Spinnaker, Consul'
             }
           ],
-          icon: 'usertie'
+          icon: 'rocket'
         }]}
         branding={false} // or false to hide it.
       />

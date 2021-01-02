@@ -25,7 +25,7 @@ spec:
       labels:
         app: my-react-cv
     spec:
-      terminationGracePeriodSeconds: 30
+      terminationGracePeriodSeconds: 31
       containers:
         - name: my-react-cv
           image: master.justeatup.xyz:5000/myprojects/mycv
