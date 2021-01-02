@@ -42,10 +42,28 @@ export default class App extends Component {
           title: 'About me',
           items: [
             {
-              authority: 'Problem solving – As a Software Engineer, always been passionate about solving business problems with technology'
+              title: 'Problem solving',
+              authority: 'As a Software Engineer, always been passionate about solving business problems with technology'
             },
             {
-              authority: 'Empathy – Programming is always about humans helping other humans by creating the most comforting experience'
+              title: 'Empathy',
+              authority: 'Programming is always about humans helping other humans by creating the most comforting experience'
+            },
+            {
+              title: 'Curious',
+              authority: 'Naturally curious who always loved to learn. Also being curious, led me to be more creative'
+            },
+            {
+              title: 'Open-mindedness',
+              authority: 'True collaboration often leads to the best possible results'
+            },
+            {
+              title: 'Collaborator',
+              authority: ' I enjoy working in a team environment, and I get along well with people'
+            },
+            {
+              title: 'Brisk',
+              authority: 'Love the idea of iterative development where requirements and solutions evolve through collaboration between self-organizing cross-functional teams'
             }
           ],
           icon: 'usertie'
