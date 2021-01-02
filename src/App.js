@@ -67,6 +67,41 @@ export default class App extends Component {
             }
           ],
           icon: 'usertie'
+        },
+        {
+          type: 'common-list',
+          title: 'Tech',
+          items: [
+            {
+              title: 'Android',
+              authority: 'Kotlin/Java, Hilt, Coroutines, Compose, Jetpack components, Material UI, RoomDb, Dagger, Retrofit, RxJava, RxAndroid, MVI, MVVM, JUnit Tests and Instrumentation Tests'
+            },
+            {
+              title: 'Backend Frameworks',
+              authority: 'Micronaut, SpringBoot, Microservices, Websockets and Distributed applications using Kafka'
+            },
+            {
+              title: 'Databases',
+              authority: ' Postgres, MongoDB, Redis'
+            },
+            {
+              title: 'Scripting',
+              authority: 'Python, Shell scripting'
+            },
+            {
+              title: 'Monitoring ',
+              authority: ' Kibana, Grafana'
+            },
+            {
+              title: 'CI',
+              authority: 'Vela(Target open-source project), CircleCI, Github actions'
+            },
+            {
+              title: 'CD',
+              authority: 'Kubernetes, Docker, Spinnaker, Consul'
+            }
+          ],
+          icon: 'usertie'
         }]}
         branding={false} // or false to hide it.
       />
