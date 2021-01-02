@@ -102,6 +102,24 @@ export default class App extends Component {
             }
           ],
           icon: 'rocket'
+        },{
+          type: 'common-list',
+          title: 'Education',
+          icon: 'graduation',
+          items: [
+            {
+              title: 'Masters of Science - MIS',
+              authority: 'St. Cloud State',
+              authorityWebSite: 'https://stcloudstate.edu',
+              rightSide: '2015 - 2016'
+            },
+            {
+              title: 'Bachelors of Tech - IT',
+              authority: 'JNTU-Hyderabad',
+              authorityWebSite: 'https://jntuh.ac.in',
+              rightSide: '2009 - 2013'
+            }
+          ]
         }]}
         branding={false} // or false to hide it.
       />
