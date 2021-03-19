@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 31
       containers:
         - name: my-react-cv
-          image: master.justeatup.xyz:5000/myprojects/mycv
+          image: docker.justeatup.xyz:5000/myprojects/mycv
           imagePullPolicy: Always
           ports:
             - containerPort: 80
