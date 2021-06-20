@@ -28,7 +28,7 @@ export default class App extends Component {
         personalData={{
           name: 'Raqeeb Abdul',
           title: 'Senior Engineer @ Target',
-          image: 'https://media-exp1.licdn.com/dms/image/C4E03AQHGYoBvi2X32g/profile-displayphoto-shrink_200_200/0/1607488648166?e=1614816000&v=beta&t=3Gggtk3kmGLYXx2E27Zn_CtAyfsc7k2ae__z0JuM3rw',
+          image: 'https://avatars.githubusercontent.com/u/1614876?s=400&u=350e725f96f04a1bd38f60881ee983b875c65aa9&v=4',
           contacts: [
             { type: 'email', value: 'raqeebabdul10@gmail.com' },
             { type: 'phone', value: '+1 (320) 200 8059' },
