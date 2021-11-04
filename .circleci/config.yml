@@ -9,5 +9,5 @@ jobs:
       - setup_remote_docker
       - run: npm install
       - run: npm run-script build
-      - run: docker build . -t docker.justeatup.xyz:5000/myprojects/mycv
-      - run: docker push docker.justeatup.xyz:5000/myprojects/mycv
+      - run: docker build . -t docker.pollsapp.xyz:5000/myprojects/mycv
+      - run: docker push docker.pollsapp.xyz:5000/myprojects/mycv
