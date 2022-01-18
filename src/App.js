@@ -174,7 +174,7 @@ export default class App extends Component {
       />
       <DIV id="hosted">
         <h2>
-          Copyright © Raqeeb Abdul. 2021. <a href="https://kubernetes.io/">Hosted on Kubernetes</a>
+          Copyright © Raqeeb Abdul. 2022. <a href="https://kubernetes.io/">Hosted on Kubernetes</a>
         </h2>
       </DIV>
       </MYCV>
