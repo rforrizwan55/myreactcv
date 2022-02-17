@@ -27,7 +27,7 @@ export default class App extends Component {
       <CV
         personalData={{
           name: 'Raqeeb Abdul',
-          title: 'Senior Engineer @ Target',
+          title: 'Software Engineer @ DoorDash',
           image: 'https://avatars.githubusercontent.com/u/1614876?v=4',
           contacts: [
             { type: 'email', value: 'raqeebabdul10@gmail.com' },
