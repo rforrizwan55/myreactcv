@@ -109,12 +109,21 @@ export default class App extends Component {
           icon: 'archive',
           items: [
             {
+              title: 'Software Engineer',
+              company: 'DoorDash',
+              description: 'Working in Ads & Promo team',
+              companyWebSite: 'https://doordash.com',
+              companyMeta: '',
+              datesBetween: '2022.03 - Present',
+              descriptionTags: ['Android', 'gRPC', 'Kubernetes', 'CockroachDB', 'Jenkins']
+            },
+            {
               title: 'Sr Engineer',
               company: 'Target',
               description: 'Working in infra team, creating MDM for Target',
               companyWebSite: 'https://target.com',
               companyMeta: '',
-              datesBetween: '2018.12 - Present',
+              datesBetween: '2018.12 - 2022.02',
               descriptionTags: ['Android', 'Micronaut', 'Kafka', 'Kubernetes', 'MongoDB', 'Postgres']
             },
             {
